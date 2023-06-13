@@ -15775,15 +15775,15 @@
           description: 'Title for the onboarding warning modal',
         },
         freeResearchPreview: {
-          id: 'thread.chatgptFreeResearchPreview',
-          defaultMessage: 'Official Shopee Store: <bili>softwaredigital.os</bili> | Powered by <pandora>Pandora</pandora>',
-          description: 'Free Research Preview disclaimer',
-        },
-        mayProduceInaccurateInformation: {
-          id: 'thread.chatgptMayProduceInaccurateInformation',
-          defaultMessage: 'Official Shopee Store: <bili>softwaredigital.os</bili> | Powered by <pandora>Pandora</pandora>',
-          description: 'ChatGPT disclaimer for producing inaccurate information',
-        },
+          id: "thread.chatgptFreeResearchPreview",
+          defaultMessage: "Official Shopee Store: <bili>softwaredigital.os</bili> | Powered by <pandora>Pandora</pandora>",
+          description: "Free Research Preview disclaimer"
+      },
+      mayProduceInaccurateInformation: {
+          id: "thread.chatgptMayProduceInaccurateInformation",
+          defaultMessage: "Official Shopee Store: <bili>softwaredigital.os</bili> | Powered by <pandora>Pandora</pandora>",
+          description: "ChatGPT disclaimer for producing inaccurate information"
+      },
         somethingWentWrong: {
           id: 'thread.modal.unrecoverableError.title',
           defaultMessage: 'Something went wrong',
@@ -17255,17 +17255,16 @@
                                         ),
                                         {
                                           values: {
-                                            bili: function(e) {
-                                              return (0,
-                                              w.jsx)("a", {
-                                                  href: "https://shopee.com.my/softwaredigital.os",
-                                                  target: "_blank",
-                                                  rel: "noreferrer",
-                                                  className: "underline",
-                                                  children: e
-                                              })
-                                          },
-                                            link: function (e) {
+                                            bili: function (e) {
+                                              return (0, w.jsx) ('a', {
+                                                href: 'https://shopee.com.my/softwaredigital.os',
+                                                target: '_blank',
+                                                rel: 'noreferrer',
+                                                className: 'underline',
+                                                children: e,
+                                              });
+                                            },
+                                            pandora: function (e) {
                                               return (0, w.jsx) ('a', {
                                                 href: 'https://github.com/pengzhile/pandora',
                                                 target: '_blank',
@@ -17286,18 +17285,16 @@
                                         (0, b._) ({}, ua.freeResearchPreview),
                                         {
                                           values: {
-                                            bili: function(e) {
-                                              return (0,
-                                              w.jsx)("a", {
-                                                  href: "https://shopee.com.my/softwaredigital.os",
-                                                  target: "_blank",
-                                                  rel: "noreferrer",
-                                                  className: "underline",
-                                                  children: e
-                                              })
-                                          },
-                                          
-                                            link: function (e) {
+                                            bili: function (e) {
+                                              return (0, w.jsx) ('a', {
+                                                href: 'https://shopee.com.my/softwaredigital.os',
+                                                target: '_blank',
+                                                rel: 'noreferrer',
+                                                className: 'underline',
+                                                children: e,
+                                              });
+                                            },
+                                            pandora: function (e) {
                                               return (0, w.jsx) ('a', {
                                                 href: 'https://github.com/pengzhile/pandora',
                                                 target: '_blank',
