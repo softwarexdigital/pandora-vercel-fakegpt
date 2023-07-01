@@ -5312,8 +5312,8 @@
           children: [
             (0, w.jsxs) (rW, {
               children: [
-                'Shopee:softwaredigital.os',
-                r && (0, w.jsx) (eS, {children: 'Only'}),
+                'softwaredigital.os',
+                r && (0, w.jsx) (eS, {children: 'shopee'}),
               ],
             }),
             (0, w.jsxs) (rG, {
@@ -9899,8 +9899,8 @@
                   (0, w.jsx) (oi, {currentModelId: R.id}),
                   (0, w.jsxs) (ob, {
                     children: [
-                      'Shopee:softwaredigital.os',
-                      F && (0, w.jsx) (eS, {children: 'Only'}),
+                      'softwaredigital.os',
+                      F && (0, w.jsx) (eS, {children: 'shopee'}),
                     ],
                   }),
                 ],
